@@ -1,0 +1,10 @@
+
+fun  main () {
+
+    var numero = readLine () !! .toInt ()
+
+    println (verificaParOuImpar (numero))
+
+}
+
+fun  verificaParOuImpar ( a : Int ) :  Booleano  =  if (a %  2  ==  0 ) verdadeiro  senão  falso
