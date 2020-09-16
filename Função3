@@ -1,0 +1,12 @@
+fun  main () {
+    print ( " Informe a taxa de imposto: " )
+    var taxaImposto = readLine () !! .dobrar()
+    imprimir ( " Informe o custo do produto: " )
+    var custoProduto = readLine () !! .dobrar()
+    println ( " O custo total é de R $ { " % .2f " .format (somaImposto (taxaImposto, custoProduto))} " )
+}
+
+fun  somaImposto ( taxaImposto :  Duplo , custoProduto :  Duplo ) :  Duplo
+{
+    retornar custoProduto + (custoProduto * (taxaImposto /  100 ))
+}
