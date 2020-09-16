@@ -1,0 +1,15 @@
+fun  main () {
+
+    println ( " Digite a primeira string: " )
+    var primeiroTexto = readLine () !! .para sequenciar()
+
+    println ( " Digite a segunda string: " )
+    var segundoTexto = readLine () !! .para sequenciar()
+
+    var resultadoComparacao =  ComparaStringsIguais (primeiroTexto, segundoTexto)
+
+    println (resultadoComparacao)
+
+}
+
+fun  ComparaStringsIguais ( a : String , b : String ) :  Boolean  =  if (a.equals (b)) true  else  false
